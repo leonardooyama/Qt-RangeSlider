@@ -26,9 +26,11 @@ QMAKE_CXXFLAGS += -std=gnu++11
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    RangeSlider.cpp
+    ..\..\source\RangeSlider.cpp
 
 HEADERS  += mainwindow.h \
-    RangeSlider.h
+    ..\..\source\RangeSlider.h
+
+INCLUDEPATH += $$PWD/../../source
 
 FORMS    +=

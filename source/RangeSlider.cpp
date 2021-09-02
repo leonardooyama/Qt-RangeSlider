@@ -356,3 +356,13 @@ void RangeSlider::SetRange(int aMinimum, int mMaximum)
     setMinimum(aMinimum);
     setMaximum(mMaximum);
 }
+
+void RangeSlider::SetOrientation(Qt::Orientation orientation)
+{
+    this->orientation = orientation;
+}
+
+void RangeSlider::SetOptions(Options type)
+{
+    this->type = type;
+}

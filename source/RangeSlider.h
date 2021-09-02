@@ -37,6 +37,11 @@ public:
 
     void SetRange(int aMinimum, int aMaximum);
 
+    //Qt::Orientation orientation;
+    //Options type;
+    void SetOrientation(Qt::Orientation orientation);
+    void SetOptions(Options type);
+
 protected:
     void paintEvent(QPaintEvent* aEvent) override;
     void mousePressEvent(QMouseEvent* aEvent) override;
