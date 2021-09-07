@@ -38,7 +38,7 @@ void Widget::slotRangeSliderLowerValueChanged(int value)
 void Widget::slotRangeSliderUpperValueChanged(int value)
 {
     QString labelText;
-    labelText = "Range slider current lower value: " + QString::number(value);
+    labelText = "Range slider current upper value: " + QString::number(value);
     ui->label_2->setText(labelText);
 }
 
